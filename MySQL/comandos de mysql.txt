@@ -1,0 +1,29 @@
+1- Comandos básicos 
+	SELECT: SELECT id, nome FROM curso; --> consulta os registro da tabela.
+	INSERT: INSERT INTO cursos (id, nome) VALUE (1, "Orlando"); -->  Consultar os registros da tabela de cursos
+	UPDATE: Modifica dados  --> UPDATE clientes SET nome = 'Rafael', email = 'contato@rlsystem.com.br' WHERE id = 1 
+	DELETE: Exclui dados  --> DELETE FROM tbl_autores WHERE ID_Autor = 2
+	CREATE: Cria tabelas e bancos  --> CREATE DATABASE sistema_proway;
+	ALTER: Modifica estruturas
+	DROP: Exclui tabelas e bancos
+
+2- Comandos de menu 
+	ALT + T + A para salvar como script
+	ALT + T + M para migrar dados
+	ALT + T + O para parar a operação atual
+	ALT + T + G para exibir a caixa de diálogo de configurações globais
+	Comandos do MySQL Shell 
+	\show para executar um relatório
+	\watch para executar um relatório que atualiza os resultados em intervalos regulares
+3- Comandos para entrar no MySQL 
+	mysql -u usuario para entrar no MySQL com um usuário
+	mysql -u usuario -p para entrar no MySQL com um usuário e senha
+	Os comandos SQL podem ser divididos em grupos: DDL, DQL, DML, DCL e TCL. 
+
+
+CREATE TABLE curso (
+	id INT, -- Coluna do tipo inteiro
+       nome VARCHAR(45) -- Coluna do tipo texto que permite armazenar até 45 caracteres
+);
+
+fim...
